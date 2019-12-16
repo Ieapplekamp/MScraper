@@ -1,0 +1,172 @@
+body {
+    background: url("../images/greyclock.jpeg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: rgb(227, 33, 44);
+}
+
+
+.jumbotron {
+    position: relative;
+    /* width: 100%; */
+    height: 450px;
+    padding: 0;
+    /* box-shadow: 10px 5px 5px 2px black; */
+}
+
+.overlay {
+    margin-top: none;
+    /* position: absolute; */
+    /* top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+    /* z-index: auto; */
+    /* background: linear-gradient(#333, #390b0e); */
+    /* opacity: 0.7; */
+}
+
+.background-image {
+    /* padding-top: 500px; */
+    height: 100%;
+    widows: 100vw;
+    background: url("../images/60banner.jpg") no-repeat center center fixed; 
+    -webkit-background-size: fill;
+    -moz-background-size: fill;
+    -o-background-size: fill;
+    background-size: fill;
+}
+
+/* .caption {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+} */
+
+.article-container {
+    padding-bottom: 25px;
+}
+
+.card {
+    border-radius: 0;
+    box-shadow: 3px 3px 5px black;
+    margin: 20px 0;
+}
+
+.card .card-header {
+    background-color: rgb(115, 22, 28);
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.card .card-header .btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.card .card-header .btn.delete {
+    right: 160px;
+}
+
+.card .card-body {
+    font-size: 16px;
+    background-color: #121212;
+    color: white;
+}
+
+.saved-article-link {
+    margin-right: 325px;
+}
+
+.card .card-header .article-link {
+    color: white;
+    display: inline-block;
+    margin-right: 280px;
+}
+
+.card {
+    background-color: #121212
+}
+
+
+textarea {
+    padding: 10px;
+    resize: none;
+    width: 100%;
+}
+
+
+
+.list-group-item {
+    word-wrap: break-word;
+    padding: 30px;
+}
+
+.note.list-group-item .btn {
+    position: relative;
+    bottom: 10px;
+}
+
+.note-delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 22px;
+    padding: 5px;
+
+}
+
+.note-list-item {
+    margin: 30px
+}
+
+#navbarColor01, .save {
+    background-color: #121212;
+}
+
+.navbar {
+    background-color: #121212;
+    color: white;
+}
+
+.white-text, #saveArticle{
+    color: white;
+}
+
+#deleteButton, #noteButton, .save {
+    color: white;
+}
+
+.modal-content {
+    background-color: #390b0e;
+}
+
+.notesList {
+    background-color: #121212;
+    border: 2px solid rgb(115, 22, 28);
+}
+
+textArea {
+    margin-top: 30px;
+    background-color: #121212;
+    color: white;
+
+}
+
+.modalHR {
+    background-color: white;
+}
