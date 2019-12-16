@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", event => {
-    
+
     const articleContainer = document.getElementById("articleContainer");
     const scraperBtn = document.getElementById("scraper");
 
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", event => {
                             <h3 class="d-inline">
                                 <a class="article-link saved-article-link" target="_blank" rel="noopener noreferrer" href="${article.link}">${article.title}</a>
                             </h3>
-                            <a class="btn save d-inline float-right" id="saveArticle" data-title="${article.title}" data-link="${article.link}" data-summary="${article.summary}" id="saveButton">Save Article</a>
+                            <a class="btn d-inline float-right" id="saveArticle" data-title="${article.title}" data-link="${article.link}" data-summary="${article.summary}" id="saveButton">Save Article</a>
                         </div>
                         <p class="card-body">${article.summary}</p>
                     </div>`

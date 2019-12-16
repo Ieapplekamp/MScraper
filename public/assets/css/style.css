@@ -13,9 +13,22 @@ body {
 
 a {
     color: #fff;
+    text-decoration: none;
 }
 
 a:hover {
+    color: white;
+}
+
+a:visited {
+    color: rgb(165, 148, 148);
+}
+
+nav a:hover {
+    color: rgb(227, 33, 44);
+}
+
+.nav-item:hover {
     color: rgb(227, 33, 44);
 }
 
@@ -23,6 +36,7 @@ a:hover {
     position: relative;
     height: 450px;
     padding: 0;
+    margin-bottom: 5px;
 }
 
 .background-image {
@@ -35,16 +49,23 @@ a:hover {
     background-size: fill;
 }
 
-.article-container {
-    padding-bottom: 25px;
+.scraper {
+    cursor: pointer;
+}
+
+.move-right {
+
+    float: right;
 }
 
 .card, .card-body  {
     background-color: #000;
     margin: 20px 0;
+    border-radius: 10px;
 }
 
 .card-header {
+    border-radius: 10px;
     background-color: rgb(115, 22, 28);
     position: relative;
     padding-top: 30px;
@@ -74,10 +95,10 @@ textarea {
     padding: 10px;
     resize: none;
     width: 100%;
+    border-bottom: none;
 }
 
 .list-group-item {
-    
     word-wrap: break-word;
     padding: 30px;
 }
@@ -111,5 +132,11 @@ textarea {
 textArea {
     margin-top: 30px;
     background-color: #000;
+    color: white;
+}
+
+#saveNewNote {
+    margin-top: 15px;
+    background-color: inherit;
     color: white;
 }
