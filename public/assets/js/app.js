@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", event => {
+    
     const articleContainer = document.getElementById("articleContainer");
     const scraperBtn = document.getElementById("scraper");
 
@@ -21,6 +22,7 @@ document.addEventListener("DOMContentLoaded", event => {
     }
 
     articleContainer.addEventListener("click", event => {
+
         const cardContainer = this.event.target.parentElement.parentElement
         if (this.event.target.id === "saveArticle") {
             const data = {
@@ -32,7 +34,9 @@ document.addEventListener("DOMContentLoaded", event => {
                 .then(result => cardContainer.parentElement.removeChild(cardContainer));
         }
     });
+
     scraperBtn.addEventListener("click", event => {
+
         API.ajax.get("/api/scrape")
             .then(data => {
                 let cardHolder = ""
@@ -52,6 +56,5 @@ document.addEventListener("DOMContentLoaded", event => {
                 articleContainer.innerHTML = cardHolder
             })
     })
-
 
 });

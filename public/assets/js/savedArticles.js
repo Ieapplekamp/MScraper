@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", event => {
                 let li =
                     `
                     <li class="container-fluid notesList list-group-item">
-                        <button class="d-block btn btn-danger note-delete" id="deleteComment" data-comment="${note}" data-title="${titleForCommentSection}" >x</button>
+                        <button class="d-block btn btn-danger note-delete" id="deleteComment" data-comment="${note}" data-title="${titleForCommentSection}"><i class="fas fa-trash-alt"></i></button>
                         <h4 class="d-inline note-list-item">${note}</h4>
                     </li>`;
                 notes = notes + li;
