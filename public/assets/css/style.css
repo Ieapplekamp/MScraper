@@ -1,11 +1,14 @@
 body {
-    background: url("../images/greyclock.jpeg") no-repeat center center fixed; 
+    
+    background: url("../images/clock.jpeg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: rgb(203, 211, 220);
     color: #fff;
-
+    line-height: none;
+    font-size: 1rem;
 }
 
 a {
@@ -28,10 +31,9 @@ a:hover {
 
 
 .background-image {
-    /* padding-top: 500px; */
     height: 100%;
-    widows: 100vw;
-    background: url("../images/60banner.jpg") no-repeat center center fixed; 
+    width: 100vw;
+    background: url("../images/60banner.jpg") no-repeat center center; 
     -webkit-background-size: fill;
     -moz-background-size: fill;
     -o-background-size: fill;
@@ -75,7 +77,6 @@ a:hover {
 }
 
 .card .card-header .article-link {
-   
     display: inline-block;
     margin-right: 280px;
 }
@@ -120,6 +121,10 @@ textarea {
 
 .modal-content {
     background-color: rgb(115, 22, 28);
+}
+
+.modal-body {
+    padding: 5%;
 }
 
 .notesList {
