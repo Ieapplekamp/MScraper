@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", event => {
             input.forEach(note => {
                 let li =
                     `
-                    <li class=" container-fluid white-text  notesList list-group-item">
+                    <li class="container-fluid notesList list-group-item">
                         <button class="d-block btn btn-danger note-delete" id="deleteComment" data-comment="${note}" data-title="${titleForCommentSection}" >x</button>
                         <h4 class="d-inline note-list-item">${note}</h4>
                     </li>`;

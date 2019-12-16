@@ -4,6 +4,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    color: #fff;
 
 }
 
@@ -24,17 +25,7 @@ a:hover {
     /* box-shadow: 10px 5px 5px 2px black; */
 }
 
-.overlay {
-    margin-top: none;
-    /* position: absolute; */
-    /* top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0; */
-    /* z-index: auto; */
-    /* background: linear-gradient(#333, #390b0e); */
-    /* opacity: 0.7; */
-}
+
 
 .background-image {
     /* padding-top: 500px; */
@@ -47,20 +38,11 @@ a:hover {
     background-size: fill;
 }
 
-/* .caption {
-    position: absolute;
-    top: 30%;
-    width: 100%;
-    text-align: center;
-} */
-
 .article-container {
     padding-bottom: 25px;
 }
 
 .card {
-    border-radius: 0;
-    box-shadow: 3px 3px 5px black;
     margin: 20px 0;
 }
 
@@ -84,8 +66,8 @@ a:hover {
 
 .card .card-body {
     font-size: 16px;
-    background-color: #121212;
-    color: white;
+    background-color: #000;
+    
 }
 
 .saved-article-link {
@@ -93,13 +75,13 @@ a:hover {
 }
 
 .card .card-header .article-link {
-    color: white;
+   
     display: inline-block;
     margin-right: 280px;
 }
 
 .card {
-    background-color: #121212
+    background-color: #000;
 }
 
 
@@ -108,8 +90,6 @@ textarea {
     resize: none;
     width: 100%;
 }
-
-
 
 .list-group-item {
     word-wrap: break-word;
@@ -134,39 +114,21 @@ textarea {
     margin: 30px
 }
 
-#navbarColor01, .save {
-    background-color: #121212;
-}
-
 .navbar {
-    background-color: #121212;
-    color: white;
-}
-
-.white-text, #saveArticle{
-    color: white;
-}
-
-#deleteButton, #noteButton, .save {
-    color: white;
+    background-color: #000;
 }
 
 .modal-content {
-    background-color: #390b0e;
+    background-color: rgb(115, 22, 28);
 }
 
 .notesList {
-    background-color: #121212;
+    background-color: #000;
     border: 2px solid rgb(115, 22, 28);
 }
 
 textArea {
     margin-top: 30px;
-    background-color: #121212;
+    background-color: #000;
     color: white;
-
-}
-
-.modalHR {
-    background-color: white;
 }
